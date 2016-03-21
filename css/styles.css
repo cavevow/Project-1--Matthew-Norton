@@ -1,0 +1,91 @@
+ body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+/* styles nav bars */
+#nav1 {
+    float: right;
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7689B6;
+}
+/* styles both nav bars anchors */
+li a {
+    float: left;
+    display: table;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* adds border to second nav bar */
+#nav2 {
+    border: 3px solid black;
+}
+/* changes nav links to black when hovered over */
+li a:hover {
+    background-color: black;
+}
+h1 {
+    font-size: 100px;
+}
+#article1 {
+    position: relative;
+    right: 75%;
+}
+/*positions each column in the proper position*/
+#column0 {
+    padding-top: 15px;
+    float: left;
+    position: relative;
+    left: 77%;
+    overflow: hidden;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 700px;
+}
+
+#column1 {
+    float: left;
+    position: inherit;
+    width: 40%;
+    overflow: hidden;
+}
+#column2 {
+    position: relative;
+    width: 40%;
+    left: 10%;
+    overflow: hidden;
+}
+#column3 {
+    float: left;
+    position: relative;
+    width: 21%;
+    left: 84%;
+    overflow: hidden;
+}
+#column4 {
+    float: left;
+    position: relative;
+    width: 21%;
+    left: 90%;
+    overflow: hidden;
+}
+#caption {
+    display: block;
+
+    
+}
+strong {
+    font-size: 60px;
+    text-align: center; 
+}
